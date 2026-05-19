@@ -1,5 +1,7 @@
 # cancellable
 
+[![ci](https://github.com/p-vbordei/cancellable/actions/workflows/ci.yml/badge.svg)](https://github.com/p-vbordei/cancellable/actions/workflows/ci.yml)
+
 Promise utilities for `AbortSignal`. Wrap any promise so it rejects on abort, add timeouts, sleep abortably, build deferreds, combine multiple signals into one. Zero dependencies.
 
 ```ts
