@@ -1,6 +1,6 @@
 {
   "name": "@p-vbordei/cancellable",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Promise utilities for AbortSignal: cancellable() wrapper, withTimeout, abortable sleep, deferred, anySignal combinator. Zero dependencies.",
   "keywords": [
     "abort",
