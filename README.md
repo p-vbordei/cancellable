@@ -5,7 +5,7 @@
 Promise utilities for `AbortSignal`. Wrap any promise so it rejects on abort, add timeouts, sleep abortably, build deferreds, combine multiple signals into one. Zero dependencies.
 
 ```ts
-import { cancellable, withTimeout, sleep, deferred, anySignal, TimeoutError } from "cancellable";
+import { cancellable, withTimeout, sleep, deferred, anySignal, TimeoutError } from "@p-vbordei/cancellable";
 
 // Make any promise abortable
 await cancellable(longRunning(), abortSignal);
@@ -30,7 +30,7 @@ dispose();
 ## Install
 
 ```sh
-npm install cancellable
+npm install @p-vbordei/cancellable
 ```
 
 ## API
