@@ -2,6 +2,10 @@
 
 [![ci](https://github.com/p-vbordei/cancellable/actions/workflows/ci.yml/badge.svg)](https://github.com/p-vbordei/cancellable/actions/workflows/ci.yml)
 
+[![npm](https://img.shields.io/npm/v/%40p-vbordei%2Fcancellable.svg)](https://www.npmjs.com/package/@p-vbordei/cancellable)
+[![downloads](https://img.shields.io/npm/dm/%40p-vbordei%2Fcancellable.svg)](https://www.npmjs.com/package/@p-vbordei/cancellable)
+[![bundle](https://img.shields.io/bundlejs/size/%40p-vbordei%2Fcancellable)](https://bundlejs.com/?q=%40p-vbordei%2Fcancellable)
+
 Promise utilities for `AbortSignal`. Wrap any promise so it rejects on abort, add timeouts, sleep abortably, build deferreds, combine multiple signals into one. Zero dependencies.
 
 ```ts
